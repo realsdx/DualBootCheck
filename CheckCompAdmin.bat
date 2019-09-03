@@ -2,7 +2,7 @@ echo "Helper BatchScript to run the powershell script with one-click"
 echo " "
 
 set scpath=%cd%
-set fileloc=%scpath%\checkdualboot.ps1
+set fileloc="%scpath%\checkdualboot.ps1"
 set finalloc="C:\Users\Public"
 xcopy /i %fileloc% %finalloc%
 
